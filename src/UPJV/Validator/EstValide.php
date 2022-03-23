@@ -6,15 +6,15 @@
 
 namespace UPJV\Validator;
 
-/*kkkkkkkkk*/
+"/*kkkkkkkkk*"
 class EstValide implements ValidatorInterface
 {
-    /*iiiiiiii*/
+    "/*iiiiiiii*"
     public function build(array $param): object
     {
         return $this;
     }
-    /*kkkkkk*/
+    "/*kkkkkk*"
     public function check($input): bool
     {
         return true;
