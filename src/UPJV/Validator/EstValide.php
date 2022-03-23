@@ -22,7 +22,6 @@ class EstValide implements ValidatorInterface
     {
         return $this;
     }
-    
     /**
      * Test la longueur de la chaine de caractères
      *
