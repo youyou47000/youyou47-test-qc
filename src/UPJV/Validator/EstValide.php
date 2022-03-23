@@ -1,20 +1,36 @@
 <?php
 
-/*
- * This file is part of the Symfony package.
+
+/**
+ * Vérifie que la taille de la chaine comporte au moins 2 caractères
  */
 
 namespace UPJV\Validator;
 
-"/*kkkkkkkkk*"
+/**
+ * Class Min implémente les méthode build & check
+ */
 class EstValide implements ValidatorInterface
 {
-    "/*iiiiiiii*"
+    /**
+     * Récupère la taille minimum spécifier dans la conf
+     *
+     * @param array $param
+     *
+     * @return object
+     */
     public function build(array $param): object
     {
         return $this;
     }
-    "/*kkkkkk*"
+    
+    /**
+     * Test la longueur de la chaine de caractères
+     *
+     * @param $input
+     *
+     * @return bool
+     */
     public function check($input): bool
     {
         return true;
