@@ -6,15 +6,15 @@
 
 namespace UPJV\Validator;
 
-// class
+/*kkkkkkkkk*/
 class EstValide implements ValidatorInterface
 {
-    //bluid
+    /*iiiiiiii*/
     public function build(array $param): object
     {
         return $this;
     }
-    //check
+    /*kkkkkk*/
     public function check($input): bool
     {
         return true;
