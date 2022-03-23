@@ -2,6 +2,7 @@
 /*
  * This file is part of the Symfony package.
  */
+
 namespace UPJV\Validator;
 
 class EstValide implements ValidatorInterface // class
